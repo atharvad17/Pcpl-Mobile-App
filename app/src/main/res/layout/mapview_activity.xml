@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/xrellaycapturescreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/xbtncapture" >
+
+            <fragment
+                android:id="@+id/mapviewbuilding"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:enabled="true" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/xbtncapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text="Take Screenshot"
+            android:textColor="#000000" />
+        
+         <Button
+            android:id="@+id/xbtnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/xbtncapture"
+            android:layout_marginTop="5dp"
+            android:text="Submit screen shot"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/tool_barflowerbed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/common_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="3"
+                    android:text="Flower Beds"/>
+                <EditText
+                    android:id="@+id/xedtflowerbeds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="10"
+                    android:hint="@string/flowerbeds"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.90"
+                    android:text="Flower Beds"/>
+                <EditText
+                    android:id="@+id/xedtwidth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="10"
+                    android:hint="@string/width"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/xtxtwidhtFt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/xedtwidth"
+                    android:padding="1dp"
+                    android:text="@string/ft" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Length"/>
+
+                <EditText
+                    android:id="@+id/xedtlength"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="9"
+                    android:hint="@string/length"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/xtxtft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/xedtlength"
+                    android:padding="1dp"
+                    android:text="@string/ft" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp" >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Total Area"/>
+                <EditText
+                    android:id="@+id/xedtTotalarea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="8"
+                    android:hint="@string/Totalarea"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/xtxtTotalareasqft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/xedtTotalarea"
+                    android:padding="1dp"
+                    android:text="@string/sqft"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/xedtTotalAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10"
+                android:hint="@string/amout"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/button_background"
+                android:text="@string/save"
+                android:textColor="#ffffff" />
+
+
+<!-- ****************************/////////////////****************************-->
+
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:padding="3dp" >
+
+
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:padding="3dp" >
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:padding="3dp" >
+
+
+                    </RelativeLayout>
+                    
+
+
+                   &lt;!&ndash;  <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:padding="3dp" >
+
+                        <TextView
+                            android:id="@+id/xtxtTotalAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentLeft="true"
+                            android:padding="1dp"
+                            android:text="@string/total" />
+
+                        <EditText
+                            android:id="@+id/xedtTotalAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/edittextstyle2"
+                            android:ems="9"
+                            android:hint="@string/amout"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+                    </RelativeLayout> &ndash;&gt;
+                </LinearLayout>
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

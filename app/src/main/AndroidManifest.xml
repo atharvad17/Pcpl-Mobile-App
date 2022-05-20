@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.techinvest.pcplrealestate"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <!--<uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />-->
+    <uses-permission android:name="com.example.googlemaps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+
+
+    <application
+        android:name=".PcplApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/pcpl_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup" >
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.techinvest.pcplrealestate.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <!-- ressource file to create -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="IntentFilterExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"/>
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB5ppE1cgeSuOXyYedl-jykCKpwGHJwKF0" />
+        <!--
+            <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBDUCq9lqsD8rEz624mWbgG2TjRTk20qZM"/>
+        -->
+
+        <activity android:name=".fragment.Buildingdetails"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".fragment.Flatspecifications"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".Requestdetails"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".fragment.Locationdetails"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".fragment.Projectdetails"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".Roomdetails"
+            tools:ignore="Instantiatable"/>
+        <activity android:name=".Layoutdetails"
+            tools:ignore="Instantiatable" />
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SecondScreenActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".PcplImagesDetail" />
+        <activity android:name=".MapviewActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Carpetdetails" />
+        <activity android:name=".Flowerbeddetails" />
+        <activity android:name=".visitsActivity"
+            tools:ignore="Instantiatable" />
+
+
+
+        <!--
+        <activity
+            android:name="com.techinvest.pcplrealestate.UnderConstruction"
+            android:label="@string/title_activity_under_construction" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techinvest.pcplrealestate.Projectdetails" />
+        </activity>
+        -->
+
+
+        <activity
+            android:name=".Services"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            tools:ignore="Instantiatable" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2ea76b7aa8f09d3d7260918dcb2017957e2b2f13" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/type"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/type"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false"
+                        />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/class1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoclass"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/class1"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false"/>
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownclass"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/Site"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoSite"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/Site"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownSite"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/view"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/view"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/North"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittextstyle2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp" >
+
+                    <EditText
+                        android:id="@+id/xedtNorthName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/North"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/south"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittextstyle2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp" >
+
+                    <EditText
+                        android:id="@+id/xedtsouth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/south"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/East"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittextstyle2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp" >
+
+                    <EditText
+                        android:id="@+id/xedtEastName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/East"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/west"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittextstyle2"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp" >
+
+                    <EditText
+                        android:id="@+id/xedtwest"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/west"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/Nearestrailwaystation"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoNearestrailwaystation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/Nearestrailwaystation"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:completionThreshold="1"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownNearestrailwaystation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/distance1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautodistanceRailwayKms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/distance1"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdowndistanceKms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/Nearestbusstop"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoNearestbusstop"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/Nearestbusstop"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownNearestbusstop"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/distance2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautodistanceBusMins"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/distance2"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdowndistanceMins"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/Nearesthospital"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp" >
+
+                    <EditText
+                        android:id="@+id/xedtNearesthospital"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/Nearesthospital"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="@string/distance3"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautodistancehosKms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/distance3"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdowndistancehosKms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:gravity="center"
+                        android:text="@string/Latitude"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittextstyle2"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <EditText
+                            android:id="@+id/xedtLatitude"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@null"
+                            android:hint="@string/Latitude"
+                            android:imeOptions="actionDone"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray"
+                            android:inputType="numberDecimal"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:gravity="center"
+                        android:text="@string/longitude"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittextstyle2"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp" >
+
+                        <EditText
+                            android:id="@+id/xedtlongitude"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@null"
+                            android:hint="@string/longitude"
+                            android:imeOptions="actionNext"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray"
+                            android:inputType="numberDecimal" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:gravity="center"
+                        android:text="@string/autoavailable"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/edittext_medium"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:id="@+id/xedtautoavailable"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:hint="@string/autoavailable"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdownautoavailable"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:visibility="invisible"
+                    android:weightSum="10" >
+                </LinearLayout>
+                <Button
+                    android:id="@+id/xbtnsave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@drawable/button_background"
+                    android:text="@string/save"
+                    android:textColor="#ffffff" />
+
+
+
+<!-- ******************************************************************************-->
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                   &lt;!&ndash; ###$$$$$$  &ndash;&gt;
+
+                </LinearLayout>
+
+                &lt;!&ndash; added new here &ndash;&gt;
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                &lt;!&ndash; added new here &ndash;&gt;
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+                </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2" >
+
+
+                </LinearLayout>
+
+                &lt;!&ndash; added here &ndash;&gt;-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

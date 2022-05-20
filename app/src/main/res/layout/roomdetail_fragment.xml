@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:dividerPadding="12dip"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/xbtnRoomdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/roomdetails" />
+
+        <Button
+            android:id="@+id/xbtnCarpetdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/carpetdetails" />
+
+        <Button
+            android:id="@+id/xbtnFlowerbeddetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/flowerbeddetails" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:background="@drawable/edittext_medium"
+                        android:padding="3dp" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/xedtautorooms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:ems="11"
+                            android:hint="@string/rooms"
+                           
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdownrooms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/xedtautorooms"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:background="@drawable/edittext_medium"
+                        android:padding="3dp" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/xedtautodoorsdiscription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:ems="11"
+                            android:hint="@string/doorsdiscription"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdowndoorsdiscription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/xedtautodoorsdiscription"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:background="@drawable/edittext_medium"
+                        android:padding="3dp" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/xedtautokitchenplatform"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:ems="11"
+                            android:hint="@string/kitchenplatform"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdownkitchenplatform"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/xedtautokitchenplatform"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:background="@drawable/edittext_medium"
+                        android:padding="3dp" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/xedtautoroomflooring"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:ems="11"
+                            android:hint="@string/flooring"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdownroomflooring"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/xedtautoroomflooring"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:background="@drawable/edittext_medium"
+                        android:padding="3dp" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/xedtautowindowsdiscription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:ems="11"
+                            android:hint="@string/windowsdiscription"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdownwindowsdiscription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/xedtautowindowsdiscription"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </RelativeLayout>
+
+                  
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:background="@drawable/edittext_medium"
+                        android:padding="3dp" >
+
+                        <AutoCompleteTextView
+                            android:id="@+id/xedtautowctype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:ems="11"
+                            android:hint="@string/wctype"
+                            android:padding="5dp"
+                            android:textColor="@color/Black"
+                            android:textColorHint="@color/Gray" />
+
+                        <ImageView
+                            android:id="@+id/ximgdropdownwctype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/xedtautowctype"
+                            android:padding="4dp"
+                            android:src="@drawable/arrow_down" />
+                    </RelativeLayout>
+
+                  
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/xbtnsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/button_background"
+                android:text="@string/save"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

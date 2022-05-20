@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/Structuretype"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp" >
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoStructuretype"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:imeOptions="actionNext"
+                        android:hint="@string/Structuretype"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false">
+                    </AutoCompleteTextView>
+                    <ImageView
+                        android:id="@+id/ximgdropdownStructuretype"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="12"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/floor"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautofloor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:imeOptions="actionNext"
+                        android:background="@null"
+                        android:hint="@string/floor"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownfloor"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/noofflats"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:id="@+id/xedtautonoofflats"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/noofflats"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownnoofflats"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/noofwings"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:id="@+id/xedtautonoofwings"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/noofwings"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownnoofwings"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="visible"
+                android:weightSum="10"
+                android:id="@+id/externalConstructionId">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/externalconstructionquailty"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoexternalconstructionquailty"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:hint="@string/externalconstructionquailty"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownautoexternalconstructionquailty"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/qualityofinfrastructure"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoqualityofinfrastructure"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:imeOptions="actionNext"
+                        android:background="@null"
+                        android:hint="@string/qualityofinfrastructure"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false"/>
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownautoqualityofinfrastructure"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/Civicamenities"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoCivicamenities"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:imeOptions="actionNext"
+                        android:background="@null"
+                        android:hint="@string/Civicamenities"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray"
+                        android:enabled="false" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownautoCivicamenities"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/nooflifts"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <TextView
+                        android:id="@+id/xedtautonooflifts"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/nooflifts"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownnooflifts"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="visible"
+                android:weightSum="10"
+                android:id="@+id/internalConstructionId" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/internalconstruction"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautointernalconstruction"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/internalconstruction"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdowninternalconstruction"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:visibility="visible"
+                android:weightSum="10"
+                android:id="@+id/buildingMaintenanceId" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/buildingmaintenance"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautobuildingmaintenance"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:hint="@string/buildingmaintenance"
+                        android:imeOptions="actionNext"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownbuildingmaintenance"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/watersupply"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautowatersupply"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:imeOptions="actionNext"
+                        android:background="@null"
+                        android:hint="@string/watersupply"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownwatersupply"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:gravity="center"
+                    android:text="@string/rentalvalue"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:weightSum="10" >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautorentalvalue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:imeOptions="actionDone"
+                        android:background="@null"
+                        android:hint="@string/rentalvalue"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownrentalvalue"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/xbtnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/button_background"
+                android:text="@string/save"
+                android:textColor="#ffffff" />
+
+
+<!--*******************************************************************************-->
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    &lt;!&ndash;  ##$$$###&ndash;&gt;
+
+                </LinearLayout>
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,391 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinner1"
+            android:layout_alignRight="@+id/spinner1"
+            android:layout_alignTop="@+id/textView3"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignTop="@+id/spinner2"
+            android:text="@string/view"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spinner2"
+            android:layout_alignLeft="@+id/spinner3"
+            android:layout_alignRight="@+id/spinner3"
+            android:layout_alignTop="@+id/textView4"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/textView4"
+            android:text="@string/south"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/spinner2"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignLeft="@+id/spinner4"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="25dp"
+            android:text="@string/East"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignLeft="@+id/textView6"
+            android:text="@string/west"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignLeft="@+id/editText1"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignLeft="@+id/editText2"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="25dp"
+            android:text="@string/Nearestrailwaystation"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView9"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignLeft="@+id/textView8"
+            android:text="@string/distance1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignRight="@+id/editText3"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_alignRight="@+id/editText4"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="25dp"
+            android:text="@string/Nearestbusstop"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView11"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_alignRight="@+id/textView10"
+            android:text="@string/distance2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignLeft="@+id/spinner6"
+            android:layout_alignRight="@+id/spinner6"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView11"
+            android:layout_alignLeft="@+id/spinner5"
+            android:layout_alignRight="@+id/spinner5"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:layout_marginTop="25dp"
+            android:text="@string/Nearesthospital"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_alignLeft="@+id/spinner7"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView13"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_alignLeft="@+id/textView12"
+            android:text="@string/distance3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_alignLeft="@+id/spinner8"
+            android:layout_alignRight="@+id/spinner8"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView15"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_alignRight="@+id/textView14"
+            android:text="@string/Latitude"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_alignLeft="@+id/editText5"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView16"
+            android:layout_alignLeft="@+id/spinner9"
+            android:background="@drawable/edittextstyle2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="25dp"
+            android:text="@string/autoavailable"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView17"
+            android:layout_alignLeft="@+id/editText6"
+            android:layout_alignRight="@+id/editText6"
+            android:background="@drawable/edittext_medium"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/Site"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"
+            android:text="@string/type"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/editText7"
+            android:layout_alignTop="@+id/textView17"
+            android:background="@drawable/button_background"
+            android:text="@string/save"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="28dp"
+            android:text="@string/North"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="23dp"
+            android:text="@string/longitude"
+
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/textView9"
+            android:background="@drawable/edittext_medium"
+            android:ems="10"
+            android:hint="AutoCompleteTextView" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/spinner6"
+            android:layout_alignBottom="@+id/spinner6"
+            android:layout_toRightOf="@+id/spinner6"
+            android:text="@string/kms" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/spinner8"
+            android:layout_alignBottom="@+id/spinner8"
+            android:layout_alignLeft="@+id/textView18"
+            android:text="@string/mins" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/spinner9"
+            android:layout_alignBottom="@+id/spinner9"
+            android:layout_alignLeft="@+id/textView19"
+            android:text="@string/kms" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_marginLeft="88dp"
+            android:layout_toRightOf="@+id/spinner1"
+            android:text="@string/class1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_marginLeft="41dp"
+            android:layout_toRightOf="@+id/textView10"
+            android:background="@drawable/edittext_medium"
+            android:ems="10"
+            android:hint="AutoCompleteTextView" />
+    </RelativeLayout>
+
+</ScrollView>

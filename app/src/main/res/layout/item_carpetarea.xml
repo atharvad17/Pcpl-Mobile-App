@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtcarpetarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle2"
+                android:hint="@string/carpetarea"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:weightSum="10" >
+
+            <TextView
+                android:id="@+id/xedtlength"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/edittextstyle2"
+                android:hint="@string/length"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray" />
+
+            <TextView
+                android:id="@+id/xtxtft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:padding="1dp"
+                android:text="@string/ft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:weightSum="10" >
+
+            <TextView
+                android:id="@+id/xedtwidth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/edittextstyle2"
+                android:hint="@string/width"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray" />
+
+            <TextView
+                android:id="@+id/xtxtwidhtFt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:padding="1dp"
+                android:text="@string/ft" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:weightSum="10" >
+
+            <TextView
+                android:id="@+id/xedtTotalarea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/edittextstyle2"
+                android:hint="@string/Totalarea"
+                android:padding="5dp"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray" />
+
+            <TextView
+                android:id="@+id/xtxtTotalareasqft"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:padding="1dp"
+                android:text="@string/sqft" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

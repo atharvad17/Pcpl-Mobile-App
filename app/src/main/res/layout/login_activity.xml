@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10"
+                android:hint="Enter User Name"
+                android:padding="10dp" />
+            <!--  android:text="sandeep patil" -->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/password"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/textView2"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+            <!-- android:text="sandeep" -->
+
+        </RelativeLayout>
+
+        <!--   <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/margin_small"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:weightSum="10" >
+
+
+        </LinearLayout> -->
+
+        <CheckBox
+            android:id="@+id/checkRemeberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center"
+            android:text="@string/rememberme" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+<!--            <RadioGroup-->
+<!--                android:id="@+id/radioCity"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/radioButton2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="50dp"-->
+<!--                    android:onClick="onRdPune"-->
+<!--                    android:text="Mumbai"-->
+<!--                    tools:layout_gravity="left" />-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/radioButton"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="160dp"-->
+<!--                    android:layout_marginTop="-33dp"-->
+<!--                    android:onClick="onRdMumbai"-->
+<!--                    android:text="Pune"-->
+<!--                    android:layout_gravity="left" />-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/radioButton3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="250dp"-->
+<!--                    android:layout_marginTop="-33dp"-->
+<!--                    android:text="Nashik"-->
+<!--                    android:layout_gravity="left" />-->
+
+<!--            </RadioGroup>-->
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:text="@string/signin"
+            android:textColor="#FFFFFF" />
+
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:gravity="center">-->
+
+        <TextView
+            android:id="@+id/appVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Version: v.2.0.3"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <!--        </RelativeLayout>-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/appVersion"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginTop="50dp"-->
+        <!--            android:layout_marginEnd="@+id/button1"-->
+        <!--            android:layout_marginBottom="10dp"-->
+        <!--            android:text="Version: v.2.0.0"-->
+        <!--            android:textColor="@color/black" />-->
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

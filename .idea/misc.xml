@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sunny/Downloads/TA_Ashok_27June18/app/src/main/res/layout/activity_imagedetail.xml" value="0.1" />
+        <entry key="..\:/Users/sunny/Downloads/TA_Ashok_27June18/app/src/main/res/layout/item_imagedisplay.xml" value="0.1" />
+        <entry key="..\:/Users/sunny/Downloads/TA_Ashok_27June18/app/src/main/res/layout/layoutdetails.xml" value="0.25" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/drawable/button_background.xml" value="0.23385416666666667" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/drawable/button_selector_al_theme_raduis5.xml" value="0.23385416666666667" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.23385416666666667" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/drawable/imagestyle.xml" value="0.23385416666666667" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/drawable/selector.xml" value="0.23385416666666667" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/drawable/textviewdesign.xml" value="0.23385416666666667" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/activity_carpetareanew.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/activity_carpetdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/activity_floordetail.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/activity_imagedetail.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/activity_second_screen.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/activity_welcome.xml" value="0.22" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/addroominformation_dialog.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/buildingdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/buildingdetails_fragment.xml" value="0.25" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/carpetarea_dialog.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/carpetdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/common_header.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/common_pendinglistheader.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/completedvisits.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/custom_dailog_box.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/custom_dailog_ok.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/customer_popupdialog.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/customer_popupdialog_req_detail.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/demo_location.xml" value="0.22" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/flatspecifications.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/flatspecifications_fragment.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/flowerbed_dialogbox.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/flowerbeddetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_autocomplete.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_carpetarea.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_floorbeddetail.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_image.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_imagedisplay.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_pendingvisits.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/item_roomdetailnew.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/layoutdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/locationdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/locationdetails_fragment.xml" value="0.25" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/login_activity.xml" value="0.25" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/mapview_activity.xml" value="0.22" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/pendingvisits.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/projectdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/projectdetails_fragment.xml" value="0.25" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/requestdetail_fragment.xml" value="0.5" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/requestdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/room_detailnew.xml" value="0.25" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/roomdetail_fragment.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/roomdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/row_requests.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/single_item.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/tool_bar.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/layout/under_construction.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/buildingdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/carpetdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/flatspecifications.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/flowerbeddetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/layoutdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/locationdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/main.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/projectdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/requestdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/roomdetails.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/second_screen.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/services.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/third_screen.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/menu/under_construction.xml" value="0.21770833333333334" />
+        <entry key="..\:/latest_pcpl/TA_Ashok_27June18/app/src/main/res/xml/file_paths.xml" value="0.21770833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

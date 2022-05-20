@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Enginner"
+                    android:layout_weight="7"/>
+
+                <EditText
+                    android:id="@+id/xedtEnginnerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/Enginner"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Customer\nName"
+                    android:layout_weight="7"/>
+
+                <EditText
+                    android:id="@+id/xedtCustomerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/CustomerName"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Owner\nName"
+                    android:layout_weight="7"/>
+
+                <EditText
+                    android:id="@+id/xedtOwnerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/ownername"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Flat No"
+                    android:layout_weight="7"/>
+
+                <EditText
+                    android:id="@+id/xedtaddressFlatno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/flat_no"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Landmark"
+                    android:layout_weight="7" />
+
+                <EditText
+                    android:id="@+id/xedtAddressLandMark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/Address2"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Road Name"
+                    android:layout_weight="7"/>
+
+                <EditText
+                    android:id="@+id/xedtaddressRoad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/Address3"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="person meet"
+                    android:layout_weight="7"/>
+
+                <EditText
+                    android:id="@+id/xedtPersonmet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:ems="12"
+                    android:hint="@string/personmet"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Area"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_weight="7"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_medium"
+                    android:padding="3dp"
+                    android:layout_weight="3">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:imeOptions="actionNext"
+                        android:ems="11"
+                        android:hint="@string/Area"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/xedtautoArea"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Occuped"
+                    android:layout_weight="7"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_medium"
+                    android:padding="3dp"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:id="@+id/xedtautoOccupiedsubtype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:ems="14"
+                        android:hint="@string/occuped"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownOccupiedsub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/xedtautoOccupiedsubtype"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Bank"
+                    android:layout_weight="7"/>
+
+                <TextView
+                    android:id="@+id/xedtBankname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="@string/Bankname"
+                    android:padding="8dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Board Name"
+                    android:layout_weight="7"/>
+                <EditText
+                    android:id="@+id/xedtBoardName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:imeOptions="actionNext"
+                    android:ems="12"
+                    android:hint="@string/nameofboard"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Contact\nName"
+                    android:layout_weight="7"/>
+                <EditText
+                    android:id="@+id/xedtContactName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:imeOptions="actionNext"
+                    android:ems="12"
+                    android:hint="@string/contact_name"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Building\nName"
+                    android:layout_weight="7"/>
+                <EditText
+                    android:id="@+id/xedtBuildingName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:imeOptions="actionNext"
+                    android:ems="12"
+                    android:hint="@string/buildername"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Location"
+                    android:layout_weight="7"/>
+                <EditText
+                    android:id="@+id/xedtLocationArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle2"
+                    android:imeOptions="actionNext"
+                    android:ems="12"
+                    android:hint="@string/Location"
+                    android:padding="5dp"
+                    android:textColor="@color/Black"
+                    android:textColorHint="@color/Gray"
+                    android:layout_weight="3"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Pincode"
+                    android:layout_weight="7"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_medium"
+                    android:padding="3dp"
+                    android:layout_weight="3">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/xedtautoPincode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:imeOptions="actionDone"
+                        android:ems="11"
+                        android:hint="@string/PINCODE"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownPincode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/xedtautoPincode"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Property\nType"
+                    android:layout_weight="7"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_medium"
+                    android:padding="3dp"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:id="@+id/xedtautoProperty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:ems="14"
+                        android:hint="@string/propertytype"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownproperty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/xedtautoProperty"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Occupant"
+                    android:layout_weight="7"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_medium"
+                    android:padding="3dp"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:id="@+id/xedtautoOccupation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:ems="14"
+                        android:hint="@string/Occupant"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"
+                        android:textColorHint="@color/Gray" />
+
+                    <ImageView
+                        android:id="@+id/ximgdropdownOccupation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/xedtautoOccupation"
+                        android:padding="4dp"
+                        android:src="@drawable/arrow_down" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/xbtnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/button_background"
+                android:text="@string/save"
+                android:textColor="#ffffff" />
+
+
+<!--******************************************************************************************** -->
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    
+               <LinearLayout
+                    android:id="@+id/xlinlayAreaList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="5dip"
+                    android:visibility="gone" >
+                </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+
+
+                    
+
+                   
+                </LinearLayout>
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

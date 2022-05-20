@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.darsh2:MultipleImageSelect:v0.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/639706867ec4d03b25998109698079e1/jetified-MultipleImageSelect-v0.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/639706867ec4d03b25998109698079e1/jetified-MultipleImageSelect-v0.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/639706867ec4d03b25998109698079e1/jetified-MultipleImageSelect-v0.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.darsh2/MultipleImageSelect/v0.0.4/ad0ceb7750df20d7eb51a866dfd0b2beca5a344c/MultipleImageSelect-v0.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

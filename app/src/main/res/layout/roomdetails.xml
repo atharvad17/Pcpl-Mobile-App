@@ -1,0 +1,824 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.techinvest.pcplrealestate.Roomdetails" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:dividerPadding="12dip"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/roomdetails" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:background="#90909090" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/carpetdetails" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:background="#90909090" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/flowerbeddetails" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/table1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearLayout1"
+            android:shrinkColumns="*"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/rooms"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/flooring"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/doorsdiscription"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/windowsdiscription"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/wctype"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="@string/kitchenplatform"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" >
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/AutoCompleteTextView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_medium"
+                    android:gravity="center"
+                    android:padding="3dip"
+                    android:text="AutoCompleteTextView" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/table1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:text="@string/save" />
+    </RelativeLayout>
+
+</ScrollView>

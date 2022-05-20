@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_completedvisits.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\completedvisits.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_row_requests.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\row_requests.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_bottom_up.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\bottom_up.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_imagedisplay.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_imagedisplay.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_flowerbeddetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\flowerbeddetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_push_left_out.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_rotate.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_visits.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_visits.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_locationdetails_fragment.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\locationdetails_fragment.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_roomdetail_fragment.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\roomdetail_fragment.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_imagedetail.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_imagedetail.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_push_right_in.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_second_screen.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_second_screen.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_tick.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\tick.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_in_up.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_in_up.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_push_right_out.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_selector_al_theme_raduis5.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\button_selector_al_theme_raduis5.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_under_construction.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\under_construction.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_bottom_down.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\bottom_down.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_tras_rotate.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\tras_rotate.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_buildingdetails_fragment.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\buildingdetails_fragment.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_bottomrec.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\custom_bottomrec.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\xml_file_paths.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_tool_bar.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\tool_bar.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_out_up.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_out_up.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_layoutdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\layoutdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_floordetail.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_floordetail.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_in_left.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_flatspecifications.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\flatspecifications.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_delete_black_24dp.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\ic_delete_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_carpetarea.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_carpetarea.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_layoutdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\layoutdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_custom_dailog_box.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\custom_dailog_box.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_side_menu_icon.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\side_menu_icon.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_pendingvisits.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_pendingvisits.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_textimage.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\textimage.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_image.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_image.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_arrow_down_float.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\arrow_down_float.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_mapview_activity.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\mapview_activity.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_common_pendinglistheader.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\common_pendinglistheader.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_out_down.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_out_down.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_pop_up_slide_out.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\pop_up_slide_out.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_room_detailnew.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\room_detailnew.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_carpetareanew.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_carpetareanew.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_roomdetailnew.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_roomdetailnew.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_projectdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\projectdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_pcpl_icon.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-xhdpi\\pcpl_icon.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_requestdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\requestdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_requestdetail_fragment.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\requestdetail_fragment.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_pop_up_slide_in.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\pop_up_slide_in.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_main.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_buildingdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\buildingdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_fade_out.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_cross_button.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\cross_button.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_locationdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\locationdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_carpetdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_carpetdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_back_icon.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\back_icon.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_updialog.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_updialog.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_autocomplete.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_autocomplete.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_flatspecifications_fragment.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\flatspecifications_fragment.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_edittextstyle1.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\edittextstyle1.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_selector.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\selector.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_plus_icon.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\plus_icon.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_pcpl_icon.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\pcpl_icon.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_edittext_medium.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\edittext_medium.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_projectdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\projectdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_out_bottom.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_imagestyle.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\imagestyle.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_flatspecifications.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\flatspecifications.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_second_screen.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\second_screen.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_pop_up_in.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\pop_up_in.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_common_header.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\common_header.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_fade_in.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_under_construction.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\under_construction.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_third_screen.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\third_screen.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_custom_dailog_ok.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\custom_dailog_ok.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_rectangle.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\custom_rectangle.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_flowerbed_dialogbox.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\flowerbed_dialogbox.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_push_left_in.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_out_right.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_customer_popupdialog_req_detail.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\customer_popupdialog_req_detail.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_arrow_down.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_locationdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\locationdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_edittextstyle2.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\edittextstyle2.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_circular_buttons.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\circular_buttons.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_top_bottom_enter_anim_reverse.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\top_bottom_enter_anim_reverse.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_pendingvisits.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\pendingvisits.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_roomdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\roomdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_background.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_pcpl_holder.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\pcpl_holder.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_roomdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\roomdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_single_item.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\single_item.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_flowerbeddetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\flowerbeddetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_services.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\services.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_requestdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\requestdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_buildingdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\buildingdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\menu_carpetdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\menu\\carpetdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_services.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\services.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_out_left.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_in_right.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_item_floorbeddetail.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\item_floorbeddetail.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_action_edit.png.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable-hdpi\\ic_action_edit.png"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_stay_still.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\stay_still.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_addroominformation_dialog.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\addroominformation_dialog.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_welcome.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_loading_view.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\loading_view.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_demo_location.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\demo_location.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_login_activity.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_in_bottom.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_in_top.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\drawable_textviewdesign.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\drawable\\textviewdesign.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_customer_popupdialog.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\customer_popupdialog.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_projectdetails_fragment.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\projectdetails_fragment.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_carpetdetails.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\carpetdetails.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_pop_up_out.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\pop_up_out.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\layout_carpetarea_dialog.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\layout\\carpetarea_dialog.xml"
+    },
+    {
+        "merged": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\build\\intermediates\\res\\merged\\release\\anim_slide_out_top.xml.flat",
+        "source": "C:\\latest_pcpl\\TA_Ashok_27June18\\app\\src\\main\\res\\anim\\slide_out_top.xml"
+    }
+]

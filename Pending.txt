@@ -1,0 +1,6 @@
+PCPL Application (Ashok)
+1. invalid login show dialog*
+2. if no internet connection save to local db without conformation*
+3. images2Bucket issue
+4. if case complete go to updated when internet is on
+5. offline mode module design

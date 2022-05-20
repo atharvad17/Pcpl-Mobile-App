@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "289540126755",
+    "firebase_url": "https://pcpl-android.firebaseio.com",
+    "project_id": "pcpl-android",
+    "storage_bucket": "pcpl-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289540126755:android:fcf00b91c08b9add",
+        "android_client_info": {
+          "package_name": "com.techinvest.pcplrealestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289540126755-vustj8452pu1n8m72vmq8ngbta1386uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8SYjA9VnNl09Tx_1Myya_6rW2CF-X_aA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

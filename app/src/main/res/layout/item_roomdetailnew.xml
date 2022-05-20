@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="6" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtautorooms"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rooms"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtautoroomflooring"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/flooring"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtautodoorsdiscription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/doorsdiscription"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtautowindowsdiscription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/windowsdiscription"
+                android:singleLine="false"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtautokitchenplatform"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/kitchenplatform"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/xedtautowctype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/wctype"
+                android:textColor="@color/Black"
+                android:textColorHint="@color/Gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

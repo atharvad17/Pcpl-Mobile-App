@@ -1,0 +1,572 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techinvest.pcplrealestate.UnderConstruction" >
+
+    <include
+        android:id="@+id/tool_barundercon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tool_barundercon"
+        android:layout_marginTop="10dip"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                 android:layout_marginTop="20dp"
+                android:layout_toLeftOf="@+id/autoCompleteTextView4"
+                android:text="@string/externalbrickworkcompletedfrom"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView6"
+                android:layout_alignRight="@+id/autoCompleteTextView3"
+                android:ems="10"
+                 android:background="@drawable/edittext_medium"
+                 android:layout_marginTop="20dp"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_below="@+id/textView8"
+                android:layout_marginTop="20dp"
+                android:layout_toLeftOf="@+id/autoCompleteTextView6"
+                android:text="@string/woodworker"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView6"
+                android:layout_below="@+id/textView7"
+               android:layout_marginTop="20dp"
+                android:layout_toLeftOf="@+id/autoCompleteTextView1"
+                android:text="@string/internalpaintingcompleted"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_below="@+id/textView6"
+                 android:layout_marginTop="20dp"
+                android:layout_toLeftOf="@+id/autoCompleteTextView1"
+                android:text="@string/externalplastercompleted"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/autoCompleteTextView8"
+                android:layout_alignLeft="@+id/textView11"
+                android:text="@string/projectcompletiondate"
+                 android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText6"
+                android:layout_alignBottom="@+id/editText6"
+                android:layout_toRightOf="@+id/editText6"
+                android:text="@string/sqft" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView7"
+                android:layout_toLeftOf="@+id/textView23"
+                android:ems="10"
+                 android:background="@drawable/edittext_medium"
+                 android:layout_marginTop="20dp"
+                android:text="AutoCompleteTextView" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView8"
+                android:layout_toRightOf="@+id/textView9"
+                android:ems="10"
+                 android:background="@drawable/edittext_medium"
+                 android:layout_marginTop="20dp"
+                android:text="AutoCompleteTextView" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView9"
+                android:layout_toLeftOf="@+id/textView11"
+                android:ems="10"
+                 android:background="@drawable/edittext_medium"
+                 android:layout_marginTop="20dp"
+                android:text="AutoCompleteTextView" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/editText9"
+                android:layout_alignTop="@+id/textView23"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/save" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_below="@+id/textView10"
+                android:text="@string/yearofconstruction"
+                 android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView26"
+                android:layout_toLeftOf="@+id/textView23"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_below="@+id/textView25"
+                android:text="@string/pcarpetarea"
+                 android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView26"
+                android:layout_alignBottom="@+id/textView26"
+                android:layout_toRightOf="@+id/textView9"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="24dp"
+                android:layout_toRightOf="@+id/textView26"
+                android:ems="10"
+                 android:background="@drawable/edittext_medium"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_below="@+id/textView9"
+                android:text="@string/liftinstalled"
+                 android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView10"
+                android:layout_toLeftOf="@+id/textView23"
+                android:ems="10"
+                 android:background="@drawable/edittext_medium"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/checkBox1"
+                android:layout_alignBottom="@+id/checkBox1"
+                android:layout_alignLeft="@+id/textView3"
+                android:text="@string/plinthcomplited"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/autoCompleteTextView1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="44dp"
+                android:text="@string/totalnooffloors"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText1"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_alignRight="@+id/textView1"
+                android:text="@string/projectstartdate"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView12"
+                android:layout_alignBottom="@+id/textView12"
+                android:layout_toLeftOf="@+id/textView11"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinner1"
+                android:layout_alignTop="@+id/textView13"
+                android:text="CheckBox" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/autoCompleteTextView12"
+                android:layout_alignBottom="@+id/autoCompleteTextView12"
+                android:layout_alignRight="@+id/textView17"
+                android:text="@string/floor"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/autoCompleteTextView8"
+                android:layout_alignBottom="@+id/autoCompleteTextView8"
+                android:layout_alignLeft="@+id/textView12"
+                android:text="@string/internalbrickworkcompleted"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_below="@+id/checkBox1"
+                android:layout_marginTop="20dp"
+                android:text="@string/internalplastercompleted"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editText5"
+                android:layout_marginLeft="21dp"
+                android:layout_toRightOf="@+id/autoCompleteTextView1"
+                android:text="@string/Noofslabs"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/textView29"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/autoCompleteTextView7"
+                android:layout_below="@+id/autoCompleteTextView7"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView14"
+                android:layout_alignBottom="@+id/textView14"
+                android:layout_alignLeft="@+id/autoCompleteTextView8"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView15"
+                android:layout_alignLeft="@+id/textView2"
+                android:text="@string/Stageofconstruction"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView14"
+                android:layout_alignBottom="@+id/textView14"
+                android:layout_toLeftOf="@+id/textView11"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView14"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/textView23"
+                android:text="@string/flooringcompleted"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView15"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_toLeftOf="@+id/textView29"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView15"
+                android:layout_alignBottom="@+id/textView15"
+                android:layout_alignRight="@+id/textView4"
+                android:text="@string/rcccompleted"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView6"
+                android:layout_toLeftOf="@+id/textView11"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView6"
+                android:layout_alignBottom="@+id/textView6"
+                android:layout_alignLeft="@+id/textView15"
+                android:text="@string/externalpaintingcompleted"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView16"
+                android:layout_alignBottom="@+id/textView16"
+                android:layout_toLeftOf="@+id/textView20"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText3"
+                android:layout_alignBottom="@+id/editText3"
+                android:layout_alignLeft="@+id/textView16"
+                android:text="@string/other"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/autoCompleteTextView4"
+                android:layout_toLeftOf="@+id/textView20"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView8"
+                android:layout_alignLeft="@+id/editText3"
+                android:background="@drawable/edittext_medium"
+                android:ems="10"
+                android:text="AutoCompleteTextView" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editText2"
+                android:layout_alignLeft="@+id/textView17"
+                android:text="@string/ageofbuilding"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView8"
+                android:layout_alignBottom="@+id/textView8"
+                android:layout_toLeftOf="@+id/textView29"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editText2"
+                android:layout_alignBottom="@+id/editText2"
+                android:layout_alignLeft="@+id/textView22"
+                android:text="@string/year" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/autoCompleteTextView6"
+                android:layout_alignLeft="@+id/textView19"
+                android:text="@string/Marketraterange"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/autoCompleteTextView6"
+                android:layout_toLeftOf="@+id/textView27"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/autoCompleteTextView6"
+                android:layout_toRightOf="@+id/editText4"
+                android:text="@string/rssqft" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/spinner2"
+                android:layout_alignBottom="@+id/spinner2"
+                android:layout_alignLeft="@+id/textView18"
+                android:text="@string/flooerise"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView28"
+                android:layout_alignBottom="@+id/textView28"
+                android:layout_toLeftOf="@+id/textView27"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView25"
+                android:layout_alignParentRight="true"
+                android:text="@string/rsfloor" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText8"
+                android:layout_alignLeft="@+id/textView29"
+                android:text="@string/rs" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/autoCompleteTextView6"
+                android:layout_alignBottom="@+id/autoCompleteTextView6"
+                android:layout_toLeftOf="@+id/textView27"
+                android:background="@drawable/edittextstyle2"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/autoCompleteTextView6"
+                android:layout_alignBottom="@+id/autoCompleteTextView6"
+                android:layout_alignLeft="@+id/textView14"
+                android:text="@string/othercharges"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,375 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/WhiteSmoke"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="@dimen/margin_tin"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:text="@string/rooms"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@drawable/edittext_medium"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="3dp"
+                            android:weightSum="10" >
+
+                            <AutoCompleteTextView
+                                android:id="@+id/xedtautorooms"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:background="@null"
+                                android:hint="@string/rooms"
+                                android:textColor="@color/Black"
+                                android:textColorHint="@color/Gray"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:id="@+id/ximgdropdownrooms"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:padding="4dp"
+                                android:src="@drawable/arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="@dimen/margin_tin"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:text="@string/flooring"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@drawable/edittext_medium"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="3dp"
+                            android:weightSum="10" >
+
+                            <AutoCompleteTextView
+                                android:id="@+id/xedtautoroomflooring"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:background="@null"
+                                android:hint="@string/flooring"
+                                android:textColor="@color/Black"
+                                android:textColorHint="@color/Gray"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:id="@+id/ximgdropdownroomflooring"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:padding="4dp"
+                                android:src="@drawable/arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="@dimen/margin_tin"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:text="@string/doorsdiscription"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@drawable/edittext_medium"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="3dp"
+                            android:weightSum="10" >
+
+                            <AutoCompleteTextView
+                                android:id="@+id/xedtautodoorsdiscription"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:background="@null"
+                                android:hint="@string/doorsdiscription"
+                                android:textColor="@color/Black"
+                                android:textColorHint="@color/Gray"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:id="@+id/ximgdropdowndoorsdiscription"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:padding="4dp"
+                                android:src="@drawable/arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="@dimen/margin_tin"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:text="@string/windowsdiscription"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@drawable/edittext_medium"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="3dp"
+                            android:weightSum="10" >
+
+                            <AutoCompleteTextView
+                                android:id="@+id/xedtautowindowsdiscription"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:background="@null"
+                                android:hint="@string/windowsdiscription"
+                                android:singleLine="false"
+                                android:textColor="@color/Black"
+                                android:textColorHint="@color/Gray"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:id="@+id/ximgdropdownwindowsdiscription"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:padding="4dp"
+                                android:src="@drawable/arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="@dimen/margin_tin"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:text="@string/kitchenplatform"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@drawable/edittext_medium"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="3dp"
+                            android:weightSum="10" >
+
+                            <AutoCompleteTextView
+                                android:id="@+id/xedtautokitchenplatform"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:background="@null"
+                                android:hint="@string/kitchenplatform"
+                                android:textColor="@color/Black"
+                                android:textColorHint="@color/Gray"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:id="@+id/ximgdropdownkitchenplatform"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:padding="4dp"
+                                android:src="@drawable/arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="@dimen/margin_tin"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="3dp"
+                        android:weightSum="10" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:gravity="center"
+                            android:text="@string/wctype"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#000000" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:background="@drawable/edittext_medium"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="3dp"
+                            android:weightSum="10" >
+
+                            <AutoCompleteTextView
+                                android:id="@+id/xedtautowctype"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:background="@null"
+                                android:hint="@string/wctype"
+                                android:textColor="@color/Black"
+                                android:textColorHint="@color/Gray"
+                                android:textSize="14dp" />
+
+                            <ImageView
+                                android:id="@+id/ximgdropdownwctype"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:padding="4dp"
+                                android:src="@drawable/arrow_down" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center" >
+
+                        <Button
+                            android:id="@+id/xbtnok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_background"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="@string/save"
+                            android:textColor="#FFFFFF" />
+
+                        <Button
+                            android:id="@+id/xbtncancel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toRightOf="@+id/xbtnok"
+                            android:background="@drawable/button_background"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:text="@string/cancel"
+                            android:textColor="#FFFFFF" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+       
+    </LinearLayout>
+
+</RelativeLayout>
